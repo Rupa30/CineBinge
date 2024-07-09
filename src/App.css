@@ -1,0 +1,38 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app{
+  min-height: 100vh;
+  background-color: #595c6e;
+  color: white;
+  padding: 130px 0 70px 0;
+}
+
+@media (max-width: 700px) {
+  .app{
+    padding-top: 70px;
+  }
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+.pageTitle {
+  font-size: 6.4vw;
+}
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
